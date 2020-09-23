@@ -1,0 +1,143 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/aldo/Documents/Project/Personal/dotnet/testFcamara/parkDriveTest.Tests/parkDriveTest.Tests.csproj": {}
+  },
+  "projects": {
+    "/home/aldo/Documents/Project/Personal/dotnet/testFcamara/parkDriveApi/parkDriveApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/aldo/Documents/Project/Personal/dotnet/testFcamara/parkDriveApi/parkDriveApi.csproj",
+        "projectName": "parkDriveApi",
+        "projectPath": "/home/aldo/Documents/Project/Personal/dotnet/testFcamara/parkDriveApi/parkDriveApi.csproj",
+        "packagesPath": "/home/aldo/.nuget/packages/",
+        "outputPath": "/home/aldo/Documents/Project/Personal/dotnet/testFcamara/parkDriveApi/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/aldo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.11.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/aldo/Documents/Project/Personal/dotnet/testFcamara/parkDriveTest.Tests/parkDriveTest.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/aldo/Documents/Project/Personal/dotnet/testFcamara/parkDriveTest.Tests/parkDriveTest.Tests.csproj",
+        "projectName": "parkDriveTest.Tests",
+        "projectPath": "/home/aldo/Documents/Project/Personal/dotnet/testFcamara/parkDriveTest.Tests/parkDriveTest.Tests.csproj",
+        "packagesPath": "/home/aldo/.nuget/packages/",
+        "outputPath": "/home/aldo/Documents/Project/Personal/dotnet/testFcamara/parkDriveTest.Tests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/aldo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/home/aldo/Documents/Project/Personal/dotnet/testFcamara/parkDriveApi/parkDriveApi.csproj": {
+                "projectPath": "/home/aldo/Documents/Project/Personal/dotnet/testFcamara/parkDriveApi/parkDriveApi.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.14.5, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
